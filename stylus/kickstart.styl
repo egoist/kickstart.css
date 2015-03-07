@@ -1,0 +1,81 @@
+/*! kickstart.css | MIT License | http://git.io/pkzy */
+
+@import 'normalize'
+
+*, *:before, *:after
+  -webkit-box-sizing border-box
+  -moz-box-sizing border-box
+  box-sizing border-box
+
+.clearfix:before,
+.clearfix:after
+  content " "
+  display table
+
+// You got saved by this if your element contains 
+// only floated elements
+
+.clearfix
+  *zoom 1
+  &:after
+    clear both
+
+// Shorthand classes
+
+.fr
+  float right
+
+.fl
+  float right
+
+.tc
+  text-align center
+
+.tl
+  text-align left
+
+.tr
+  text-align right
+
+.hide
+  display none
+
+.show
+  display block
+
+// standard design
+
+h1,h2,h3,h4,h5,ul
+  margin 0
+
+// I prefer lists with no margin and list-style globally
+// You want it and you style it in a smaller scope
+
+ul
+  padding-left 0
+  list-style none
+
+.disabled
+  pointer-events none
+  opacity 0.5
+
+a
+  text-decoration none
+  color #333
+
+.ellipsis
+  width 250px
+  white-space nowrap
+  overflow hidden
+  -ms-text-overflow ellipsis
+  -o-text-overflow @-ms-text-overflow
+  text-overflow @-ms-text-overflow
+
+pre
+  white-space pre-wrap
+  white-space -moz-pre-wrap
+  white-space -pre-wrap
+  white-space -o-pre-wrap
+  word-wrap break-word
+
+

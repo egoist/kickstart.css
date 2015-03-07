@@ -1,0 +1,30 @@
+{
+  "name": "kickstart.css",
+  "version": "1.0.0",
+  "description": "Normalize and neat your css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kchanzen/kickstart.css.git"
+  },
+  "keywords": [
+    "css",
+    "normalize",
+    "start"
+  ],
+  "author": "Kchan Zen <kchanzen@gmail.com> (http://www.kchanzen.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kchanzen/kickstart.css/issues"
+  },
+  "homepage": "https://github.com/kchanzen/kickstart.css",
+  "devDependencies": {
+    "coffee-script": "^1.9.1",
+    "gulp": "^3.8.11",
+    "gulp-livereload": "^3.8.0",
+    "gulp-stylus": "^2.0.1"
+  }
+}

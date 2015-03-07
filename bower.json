@@ -1,0 +1,16 @@
+{
+  "name": "kickstart.css",
+  "homepage": "https://github.com/kchanzen/kickstart.css",
+  "authors": [
+    "Kchan Zen <kchanzen@gmail.com>"
+  ],
+  "description": "Normalize and neat your css",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
