@@ -24,6 +24,8 @@ import '/path/to/kickstart.css/kickstart.styl' # for Stylus users
 
 **.disabled**
 
+**.[color] .bg-[color]**
+
 ## License
 
 MIT.
